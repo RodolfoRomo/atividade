@@ -64,58 +64,47 @@
     
 
  <div class="container">   
- <h1>Laço de repetição While</h1>
-        <p> O laço de repetição while necessita de 3 itens para se tornar um loop: </p>
-        <ol>
-            <li>Variável Controladora</li>
-            <li>Condição de continuação</li>
-            <li>Incremento da variável controladora</li>
-        </ol>
-        <pre>
-            $i = 0; //Declaração da variável controladora
-            while( $i < 10 )
-            {
-                //executo esse bloco de código
+ <h1>Calculadora Simples</h1>
+ 
                 
-                //Incrementando a variavel de controle
-                $i = $i + 1;
-                $i++;
-                $i += 1;
-
-            }    
-        </pre>
-            <p>A derivação Do While obrigatoriamente executa uma vez no minimo o bloco de código </p>
-            <pre>
-                $i = 0;
-                do{
-                    $i++;
-                }while($i < 10);
-            </pre>
-                exemplo:
                 <?php 
-                    $i = 1;
-                    while($i < 20)
+
+                  $numero1 = 10;
+                  $numero2 = 2;
+                  $operacao = "multiplicacao";
+                  $resultado = "resultado";
+
+                 if($operacao == "soma")
+                    
+                 {
+                    $resultado = $numero1 + $numero2;  
+                    echo  "resultado = $resultado";
+                 }
+                 else if($operacao == "subtracao")
+                    
+                 {
+                    $resultado = $numero1 - $numero2; 
+                    echo "resultado = $resultado";
+                 }
+                 else if($operacao == "multiplicacao")
+                
+                 {
+                    $resultado = $numero1 * $numero2;
+                    echo "resultado = $resultado";
+                 }
+                 else
+                   
+                      
+                   
                     {
-                        echo "<h1> $i º h1 </h1>";
-                        $i++;
+                      $resultado = $numero1 / $numero2;
+                    echo "Resultado da operação é : .$resultado";
                     }
-                ?>
+                
+                 
+                 ?>
 
-                <p>Outra forma de implementação é:</p>
-                <?php 
-                    $i = 1;
-                    do{
-                        ?>
-                            <h2> HTML NORMAL </h2>
-                            <p> <?php echo $i ; ?>  </p>
-                        <?php 
-                    $i++;       
-                    }while($i < 5);
-                ?>
-
-
-
-
+               
 
 
  </div>
