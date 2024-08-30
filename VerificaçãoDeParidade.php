@@ -46,7 +46,7 @@
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="VerificacaoDeParidade.php">
+            <a class="nav-link" href="VerificaçãoDeParidade.php">
               Verificação de Paridade
             </a>
         </li>

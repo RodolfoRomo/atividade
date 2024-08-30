@@ -16,7 +16,7 @@
 
 <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Aula PW 2</a>
+    <a class="navbar-brand" href="#">Atividade</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -28,39 +28,31 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="variavel.php">
-              Variavel
+            <a class="nav-link" href="CalculadoraSimples.php">
+              Calculadora Simples
             </a>
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="if.php">
-              If
+            <a class="nav-link" href="CalculadoraIdade.php">
+              Calculadora Idade
             </a>
         </li>
        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="while.php">While</a></li>
-            <li><a class="dropdown-item" href="for.php">For</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="foreach.php">Foreach</a></li>
-          </ul>
-        </li>
         <li class="nav-item">
-          <a class="nav-link" href="bootstrap.php">
-                bootstrap
+            <a class="nav-link" href="ConversorTemperatura.php">
+              Conversor de Temperatura
             </a>
         </li>
-        </li>
+
         <li class="nav-item">
-          <a class="nav-link">
-              Disabled
+            <a class="nav-link" href="VerificacaoDeParidade.php">
+              Verificação de Paridade
             </a>
         </li>
+        
+       
+       
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
